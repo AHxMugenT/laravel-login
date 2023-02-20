@@ -18,7 +18,7 @@ use App\Http\Controllers\DashboardController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/w4t5w4', function () {
     return view('welcome');
 });
 
@@ -28,8 +28,8 @@ Route::get('/', function () {
 // Route::post('/form', [UserDataController::class, 'store']);
 
 
-Route::get('/login', [AuthController::class, 'loginPage']);
-Route::post('/login', [AuthController::class, 'loginAuth']);
+Route::get('/', [AuthController::class, 'loginPage']);
+Route::post('/', [AuthController::class, 'loginAuth']);
 
 Route::get('/register', [AuthController::class, 'registerPage']);
 Route::post('/register', [AuthController::class, 'registerAuth']);
