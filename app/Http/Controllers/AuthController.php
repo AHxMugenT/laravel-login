@@ -59,6 +59,6 @@ class AuthController extends Controller
             echo $e;
         }
 
-        return redirect('/login');
+        return redirect('/');
     }
 }

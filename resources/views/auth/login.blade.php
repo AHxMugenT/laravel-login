@@ -25,7 +25,7 @@
                 <div class="login-logo text-dark fw-semibold fst-italic">
                     <b>MOREFINE</a>
                 </div>
-                <form action="/login" method="post">
+                <form action="/" method="post">
                     @csrf
                     <div class="input-group mb-3">
                         <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" placeholder="Email">

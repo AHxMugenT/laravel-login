@@ -80,7 +80,7 @@
                         </div>
                 </div>
                 <p class="mb-0">
-                    <a href="/login" class="text-center">Back to login</a>
+                    <a href="/" class="text-center">Back to login</a>
                 </p>
                 </form>
             </div>
